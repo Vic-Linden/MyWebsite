@@ -1,0 +1,25 @@
+/* style.css */
+body {
+  background: #d20b0b;      /* enkel test: ljus bakgrund */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 24px;
+}
+
+h1 {
+  color: #1e40af;           /* blå rubrik */
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* om du använder GIF i headern via JS: */
+.gif-header {
+  width: 500px;             /* ändra storlek här */
+  height: auto;
+  display: block;
+  margin: 12px 0;
+}
