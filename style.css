@@ -1,9 +1,19 @@
 /* style.css */
 body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
   background: #d20b0b;      /* enkel test: ljus bakgrund */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 24px;
+}
+
+.container {
+  text-align: center;
 }
 
 h1 {
