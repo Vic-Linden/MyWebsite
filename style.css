@@ -1,35 +1,59 @@
 /* style.css */
-body {
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-
-  background: #d20b0b;      /* enkel test: ljus bakgrund */
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 24px;
-}
-
-.container {
+h1, h2 {
   text-align: center;
 }
 
+h3 {
+  margin-bottom: 2px; /* minskar avståndet neråt */
+  margin-top: 5px;   /* kan du justera om du vill */
+}
+
+ul {
+  margin-top: 2px;      /* minskar avståndet ovanför listan */
+  margin-bottom: 10px;  /* avstånd under listan */
+  padding-left: 20px;   /* så punktlistan inte hamnar för nära kanten */
+}
+.container {
+  display: flex;              /* två kolumner */
+  justify-content: center;    /* centrera hela containern */
+  align-items: flex-start;    /* justera toppen */
+  gap: 70px;                  /* avstånd mellan bild och listor */
+  margin-top: 30px;
+}
+
+.left {
+  width: 300px;               /* bestäm en bredd för bilden */
+  display: flex;
+  justify-content: center;
+}
+
+.left img {
+  max-width: 100%;            /* så att bilden inte spränger ramen */
+  height: auto;
+}
+
+.right {
+  width: 400px;               /* bestäm en bredd för listorna */
+  display: flex;
+  flex-direction: column;     /* stapla rubrik + lista */
+  gap: 20px;                  /* avstånd mellan varje sektion */
+}
+
+
+body {
+  background: #cabf85;      /*Bakrunds färg */
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
 h1 {
-  color: #1e40af;           /* blå rubrik */
-  font-size: 40px;
+  color: #1e40af;           /*Rubrik "Om mig" */
+  font-size: 5px;
   margin-bottom: 12px;
 }
 
-p {
-  font-size: 18px;
-}
 
-/* om du använder GIF i headern via JS: */
-.gif-header {
-  width: 500px;             /* ändra storlek här */
-  height: auto;
-  display: block;
-  margin: 12px 0;
-}
+
