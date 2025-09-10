@@ -31,8 +31,7 @@ ul {
 }
 
 p {
-  margin-top: 5px;    /* avstånd ovanför paragrafen */
-  margin-bottom: 5px; /* avstånd nedanför paragrafen */
+  margin: 2px;   
   line-height: 1.4;   /* gör texten mer kompakt men fortfarande läsbar */
 }
 
