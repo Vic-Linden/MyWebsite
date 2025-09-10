@@ -1,0 +1,45 @@
+
+
+p {
+    margin: 0;
+}
+
+body {
+  background: #cabf85;
+  display: flex;
+  justify-content: center; /* horisontellt */
+  align-items: center;     /* vertikalt */
+  min-height: 100vh;       /* tar upp hela skärmen */
+}
+section {
+  width: 700px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* horisontellt */
+    align-items: center;     /* vertikalt */
+    min-height: 100vh;       /* tar upp hela skärmen */
+}
+
+img {
+    height: 300px;
+}
+
+.wrapper {
+  display: flex;          /* två kolumner */
+  justify-content: center; /* centrera båda tillsammans i mitten */
+  gap: 40px;               /* avstånd mellan vänster och höger */
+  margin-top: 20px;
+}
+
+.header {
+  flex: 1;                /* tar upp ena sidan */
+  text-align: center;
+}
+
+.content {
+  flex: 2;                /* tar upp lite mer plats */
+}
