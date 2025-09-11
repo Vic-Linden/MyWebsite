@@ -1,5 +1,8 @@
+
+
 p {
     margin: 0;
+  
 }
 
 
@@ -9,6 +12,7 @@ img {
 
 body {
     background-color: #cabf85;
+    
 }
 
 .column {
@@ -22,4 +26,6 @@ body {
 
 section {
     text-align: center;
+   
 }
+

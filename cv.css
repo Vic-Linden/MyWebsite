@@ -1,7 +1,7 @@
 
 
 p {
-    margin: 0;
+    margin: 0px;
 }
 
 body {
@@ -12,8 +12,10 @@ body {
   min-height: 100vh;       /* tar upp hela skärmen */
 }
 section {
-  width: 700px;
-  margin-top: 0px;
+  max-width: 700px;   /* får aldrig bli bredare än 700px */
+  width: 100%;        /* fyller ut hela skärmen på mobil */
+  padding: 10px;      /* lite luft så texten inte klistrar i kanten */
+  box-sizing: border-box; /* gör att padding räknas in i bredden */
 }
 
 
@@ -35,6 +37,7 @@ img {
   gap: 40px;               /* avstånd mellan vänster och höger */
   margin-top: 20px;
 }
+
 
 .header {
   flex: 1;                /* tar upp ena sidan */
