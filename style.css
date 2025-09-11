@@ -12,11 +12,11 @@ h1 {
 
 h3 {
   margin-bottom: 2px; /* minskar avståndet neråt */
-  margin-top: 5px;   /* kan du justera om du vill */
+  margin-top: 5px;   /* skapar avstånd */
 }
 
 ul {
-  margin-top: 2px;      /* minskar avståndet ovanför listan */
+  margin-top: 2px;      
   margin-bottom: 10px;  /* avstånd under listan */
   padding-left: 20px;   /* så punktlistan inte hamnar för nära kanten */
 }
@@ -47,9 +47,9 @@ p {
 }
 
 .right {
-  width: 400px;               /* bestäm en bredd för listorna */
+  width: 400px;               /* bredden för listorna */
   display: flex;
-  flex-direction: column;     /* stapla rubrik + lista */
+  flex-direction: column;     /* staplar rubrik + lista */
   gap: 0px;                  /* avstånd mellan varje sektion */
 }
 
