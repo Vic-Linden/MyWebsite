@@ -29,7 +29,7 @@ img {
     height: 300px;
 }
 
-.wrapper {
+.left {
   display: flex;          /* två kolumner */
   justify-content: center; /* centrera båda tillsammans i mitten */
   gap: 40px;               /* avstånd mellan vänster och höger */
@@ -41,6 +41,6 @@ img {
   text-align: center;
 }
 
-.content {
+.right {
   flex: 2;                /* tar upp lite mer plats */
 }

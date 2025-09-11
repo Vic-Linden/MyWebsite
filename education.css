@@ -2,10 +2,24 @@ p {
     margin: 0;
 }
 
+
 img {
     height: 300px;
 }
 
 body {
     background-color: #cabf85;
+}
+
+.column {
+    display: flex;
+}
+
+.col {
+    width: 100%;
+}
+
+
+section {
+    text-align: center;
 }
