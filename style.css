@@ -36,7 +36,7 @@ p {
 }
 
 .left {
-  width: 300px;               /* bestäm en bredd för bilden */
+  width: 300px;               /* bredd för bilden */
   display: flex;
   justify-content: center;
 }
@@ -55,7 +55,7 @@ p {
 
 
 body {
-  background: #cabf85;      /*Bakrunds färg */
+  background: #cabf85;     
   font-family: Arial, Helvetica, sans-serif;
   
 }
